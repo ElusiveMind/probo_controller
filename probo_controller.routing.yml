@@ -1,0 +1,29 @@
+#
+# Probo Controller Routing File.
+# Route the API calls to their spefific funcions. Be sure to have our
+# tokens along for the ride.
+#
+
+probo_controller.intake:
+  path: 'api/v1/intake'
+  defaults:
+    _controller: '\Drupal\probo_controller\Controllers\IntakeController::intake'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
+
+probo_controller.repository_status:
+  path: 'api/v1/repo-status'
+  defaults:
+    _controller: '\Drupal\probo_controller\Controllers\RepositoryController::status'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
+    
+probo_controller.build_status:
+  path: 'api/v1/build-status'
+  defaults:
+    _controller: '\Drupal\probo_controller\Controllers\BuildController::status'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,10 @@
+name: Probo Controller
+type: module
+description: Coordinates communications between the probo services with their configurations and the Drupal datastore.
+package: ProboCI
+
+core_version_requirement: ^9.0
+
+version: '1.0.0'
+project: 'probo_controller'
+project status url: 'https://www.drupalgardens.io/release-history'

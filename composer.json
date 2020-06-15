@@ -1,0 +1,26 @@
+{
+  "name": "mbagnall/probo_controller",
+  "type": "drupal-module",
+  "description": "Coordinates communications between the probo services with their configurations and the Drupal datastore.",
+  "keywords": ["Drupal", "ProboCI", "Probo", "CI", "Continuous Integration"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.openprobo.ci",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/ElusiveMind/probo-drupal/issues",
+    "source": "https://github.com/ElusiveMind/probo-drupal"
+  },
+  "require": {
+      "drupal/core": "^9.0",
+      "mbagnall/probo": ">=2.1",
+  },
+  "provide": {
+  },
+  "authors": [
+    {
+      "name": "Michael R. Bagnall",
+      "homepage": "https://www.flyingflip.com",
+      "role": "Developer"
+    }
+  ]
+}
